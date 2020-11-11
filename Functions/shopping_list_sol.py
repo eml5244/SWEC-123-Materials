@@ -11,7 +11,7 @@ def shopping_list(param1, param2, param3, param4):
     """
 	Function that prints the user a shopping list based on the input provided
 	"""
-    name = input("What is your name?")
+    name = input("What is your name? ")
     print("This is ", name, "'s shopping list!", sep="")
     print("I need", param1) # printing the first item on my grocery lsit
     print("I need", param2)
